@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Blog Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>My Blog</h1>
+    </div>
+
+    <div class="container" id="blogContainer">
+        <div class="post">
+            <h2>Featured Post</h2>
+            <p>This is the featured post of the blog with some interesting content.</p>
+            <button class="read-more" onclick="toggleContent(this)">Read More</button>
+        </div>
+
+        <div class="post">
+            <h2>Another Blog Post</h2>
+            <p>This is another post with brief content.</p>
+            <button class="read-more" onclick="toggleContent(this)">Read More</button>
+        </div>
+    </div>
+
+    <button class="load-more" onclick="loadMorePosts()">Load More Posts</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+                                                                                  
+
